@@ -1,0 +1,75 @@
+*{padding: 0px;margin: 0px;}
+a{text-decoration:none;}
+header{height:45px;border-bottom: 2px solid #a9a9a9;position:fixed;width: 100%;background-color:#eaedf7;}
+.logo{margin-top:5px;margin-left:30px;font-family:"Arial Black";float: left;}
+.header-right{font-weight: 300;margin-right:40px;}
+.header-right a{float: right;padding:0px 10px;margin-left:10px;margin-top: 16px;line-height:22px;color: #000000;font-size: 18px;}
+.header-right a:hover{border-bottom: 2px solid #000b00;}
+.main{padding-top:45px;overflow: hidden;background-color:#cbd0d3 }
+.in{
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(
+  80deg,
+  #474a4d 0%,
+  #474a4d 10%,
+  #eaedf7 10%,
+  #eaedf7 11%,
+  #474a4d 11%,
+  #474a4d 100%);
+  color:#eaedf7;
+  padding-top:60px;
+  padding-left:15%;
+}
+
+.in p{
+  margin-top:12px;
+  font-size: 18px;
+  margin-left:20px ;
+}
+
+.in h1{
+  font-weight: 200;
+}
+
+form{
+  padding: 40px 0px;
+  text-align: center;
+  margin:60px 25% 90px 25%;
+  height: 230px;
+  background-color: #ffffff;
+}
+
+input{
+  width: 93%;
+  padding: 10px;
+  margin:30px 0px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button{
+  width: 93%;
+  padding:10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #b0c4de;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  background-color: #708090;
+}
+
+footer{
+  height: 180px;
+  background-color: #001e43;
+  padding: 20px;
+  color: #ffffff;
+  float: left;
+  width: 100%;
+}
+
+footer p{
+  margin:50px ;
+}
